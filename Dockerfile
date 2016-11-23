@@ -1,4 +1,4 @@
-FROM php:7.0.11-cli
+FROM php:7-cli
 MAINTAINER Long Nguyen <olragon@gmail.com>
 
 RUN apt-get update && apt-get install -y git curl zip unzip
